@@ -78,7 +78,7 @@ player addEventHandler ["Killed",
       }
       else
       {
-         format ["%1 está herido", _targetName] remoteExecCall ["systemChat", -2, true]; // everywhere but server
+         format ["%1 is hurt", _targetName] remoteExecCall ["systemChat", -2, true]; // everywhere but server
       };
    };
 }];

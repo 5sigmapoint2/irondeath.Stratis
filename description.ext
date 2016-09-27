@@ -1,37 +1,8 @@
 // https://community.bistudio.com/wiki/Description.ext
 // https://community.bistudio.com/wiki/Arma_3_Respawn
 
-// Respawn in markers
-respawn="BASE";
-// Delay in seconds before playable unit respawns.
-respawnDelay = 15;
 respawnOnStart = 0;
-respawnTemplates[] = {"Base", "Counter", "Revive"};
 
-// No AI
-disabledAI=1;
-
-// auto assigned a free playable slot in the mission lobby
-joinUnassigned = 0;
 disableChannels[] = {0,1,2};
 // Dropping while swimming
 enableItemsDropping = 0;
-
-// Corpse management
-corpseManagerMode = 1;
-corpseRemovalMinTime = 2*60;
-corpseRemovalMaxTime = 20*60;
-wreckManagerMode = 1;
-wreckRemovalMinTime = 2*60;
-wreckRemovalMaxTime = 10*60;
-
-class Header
-{
-	gameType=DM;
-	minPlayers=1;
-	maxPlayers=20;
-};
-
-author="Alonso";
-onLoadName="Irondeath";
-onLoadMission = "Created by Alonso";

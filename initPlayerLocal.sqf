@@ -5,4 +5,4 @@
 // ---------------------------------------------------------------------------
 
 // https://community.bistudio.com/wiki/Dynamic_Groups#Additional_Functionality
-["InitializePlayer", [player]] call BIS_fnc_dynamicGroups; // Initializes the player/client side Dynamic Groups fr
+["InitializePlayer", [player]] call BIS_fnc_dynamicGroups; // Initializes the player/client side Dynamic Groups framework
