@@ -40,7 +40,10 @@ _weapons=[
    "arifle_MX_F",
    "arifle_TRG21_F",
    "SMG_01_F",
-   "SMG_02_F"
+   "SMG_02_F",
+   // TANOA
+   "SMG_05_F",
+   "arifle_AKS_F"
 ];
 
 _ammo=[
@@ -48,7 +51,10 @@ _ammo=[
    "30Rnd_65x39_caseless_green",
    "30Rnd_556x45_Stanag",
    "30Rnd_45ACP_Mag_SMG_01",
-   "30Rnd_9x21_Mag"
+   "30Rnd_9x21_Mag",
+   // TANOA
+   "30Rnd_9x21_Mag_SMG_02",
+   "30Rnd_545x39_Mag_F"
 ];
 
 [_crate, _weapons] call BIS_fnc_addVirtualWeaponCargo;

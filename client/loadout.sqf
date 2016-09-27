@@ -19,6 +19,10 @@ ID_setPlayerLoadout = {
    player addWeapon "Binocular"; 
    
    [] call (ID_loadouts call BIS_fnc_selectRandom);
+
+   player addItemToBackpack "SmokeShell";
+   player addItemToBackpack "SmokeShell";
+   player addItemToBackpack "SmokeShell";
    
    player linkItem "ItemMap";
    player linkItem "ItemCompass";
@@ -66,9 +70,23 @@ ID_loadout3 = {
    player addWeapon "hgun_Pistol_heavy_02_F";
 };
 
+ID_loadout4 = {
+   player forceAddUniform "U_BG_leader";
+   player addVest "V_Chestrig_rgr";
+   player addBackpack "B_AssaultPack_dgtl";
+   player addHeadgear "H_Cap_blk_Raven";
+
+   player addmagazines ["6Rnd_45ACP_Cylinder", 1];
+   player addmagazines ["30Rnd_9x21_Mag", 4];
+
+   player addWeapon "hgun_PDW2000_F";
+   player addWeapon "hgun_Pistol_heavy_02_F";
+};
+
 ["ID_setPlayerLoadout"] call KK_fnc_compileFinal;
 ["ID_loadout1"] call KK_fnc_compileFinal;
 ["ID_loadout2"] call KK_fnc_compileFinal;
 ["ID_loadout3"] call KK_fnc_compileFinal;
+["ID_loadout4"] call KK_fnc_compileFinal;
 
-ID_loadouts = [ID_loadout1, ID_loadout2, ID_loadout3];
+ID_loadouts = [ID_loadout1, ID_loadout2, ID_loadout3, ID_loadout4];

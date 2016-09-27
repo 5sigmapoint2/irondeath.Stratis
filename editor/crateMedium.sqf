@@ -50,7 +50,17 @@ _weapons=[
    "arifle_MX_SW_F",
    "arifle_MX_GL_F",
    "arifle_Katiba_GL_F",
-   "arifle_TRG21_GL_F"
+   "arifle_TRG21_GL_F",
+   // TANOA
+   "arifle_SPAR_01_snd_F",
+   "arifle_SPAR_01_GL_snd_F",
+   "arifle_SPAR_02_snd_F",
+   "arifle_SPAR_03_snd_F",
+   "arifle_AKM_F",
+   "arifle_AK12_F",
+   "arifle_CTARS_hex_F",
+   "srifle_DMR_07_hex_F",
+   "LMG_03_F"
 ];
 
 _ammo=[
@@ -60,7 +70,15 @@ _ammo=[
    "100Rnd_65x39_caseless_mag_Tracer",
    "150Rnd_762x54_Box_Tracer",
    "200Rnd_65x39_cased_Box_Tracer",
-   "1Rnd_HE_Grenade_shell"
+   "1Rnd_HE_Grenade_shell",
+   // TANOA
+   "30Rnd_556x45_Stanag",
+   "150Rnd_556x45_Drum_Mag_Tracer_F",
+   "30Rnd_762x39_Mag_F",
+   "100Rnd_580x42_Mag_Tracer_F",
+   "20Rnd_650x39_Cased_Mag_F",
+   "10Rnd_50BW_Mag_F",
+   "200Rnd_556x45_Box_Tracer_Red_F"
 ];
 
 [_crate, _weapons] call BIS_fnc_addVirtualWeaponCargo;

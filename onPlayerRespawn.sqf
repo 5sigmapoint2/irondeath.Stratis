@@ -14,23 +14,26 @@ player enableFatigue false;
 _incapacitated=player getVariable ["BIS_revive_incapacitated", false];
 if (!_incapacitated) then
 {
+   player removeAllEventHandlers "HandleDamage";
+
    [] call ID_setPlayerLoadout;
 
    // Handle hitting the ground
+   diag_log "Adding event handler";
    player addeventhandler ["HandleDamage", {
-      _unit = _this select 0;
-      _source = _this select 3;
-      if (_unit == _source) then
+      if ( (_this select 4) == "" ) then
       {
          player switchmove "";
-         [] spawn {
-            sleep 5;
-            player removeAllEventHandlers "HandleDamage";
-         }
-      };
-      0;
+         0;
+      }
    }];
 
    // Now increase the height
+   diag_log "Setting spawn position";
    player setPosATL [getPosATL player select 0, getPosATL player select 1, (getPosATL player select 2) + 600];
+
+   [] spawn {
+      sleep 16;
+      player removeAllEventHandlers "HandleDamage";
+   }
 };

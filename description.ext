@@ -1,8 +1,6 @@
 // https://community.bistudio.com/wiki/Description.ext
 // https://community.bistudio.com/wiki/Arma_3_Respawn
 
-respawnOnStart = 0;
-
 disableChannels[] = {0,1,2};
 // Dropping while swimming
 enableItemsDropping = 0;
