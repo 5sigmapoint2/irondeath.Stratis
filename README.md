@@ -17,7 +17,9 @@ Death match mission for Arma 3 with no optics. A tribute to good old *Utes Arma 
 - BI [Dynamic Groups](https://community.bistudio.com/wiki/Dynamic_Groups): team up and own the Arena.
 - Two static medical trucks to get your help up to 100% ![Medical Truck](https://community.bistudio.com/wikidata/images/d/d8/Arma3_CfgVehicles_I_Truck_02_medical_F.jpg)
 - Four different respawn kits
+- Silly kill messages
 - Two military camps on each end of the runaway with tier 1 crates. Hold them if you can.
-- The middle of the runaway is no man's land. Can you survivee?
+- The middle of the runaway is no man's land. Can you survive?
  
-### The Mission is under APL-SA ![](https://www.bistudio.com/assets/img/licenses/APL-SA.png) with the exception of KillZone Kid util script.
+### The Mission is under APL-SA ![](https://www.bistudio.com/assets/img/licenses/APL-SA.png) 
+### KillZone Kid util script under its own license.
